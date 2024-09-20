@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.banner{
+  clip-path: circle(165vh at 50% -100vh);
+  height: 358px;
+  width: 100%;
+
+}
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;

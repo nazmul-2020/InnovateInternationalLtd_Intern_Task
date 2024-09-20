@@ -55,7 +55,7 @@ const Navbar = () => {
                   <input
                     type="text"
                     id="input-group-search"
-                    class="block w-full py-2 px-4 pl-10 text-sm text-gray-900 placeholder-gray-500 border border-gray-300 rounded-full focus:outline-none "
+                    class="block w-full py-2 px-4 pl-10 text-sm  placeholder-gray-500 border border-gray-300 rounded-full focus:outline-none "
                     placeholder="Search "
                   />
                   <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
