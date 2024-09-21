@@ -74,6 +74,53 @@ const PhotoSession = () => {
           </div>
         </div>
       </div>
+
+      <div className="flex items-center justify-center gap-8 mt-10 pt-10 ">
+        <div className="w-[500px] ">
+          <p className="text-justify">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in qui officia deserunt mollit anim id est laborum.
+          </p>
+          <div className="mt-4 flex justify-center">
+            <button
+              type="button"
+              class="py-2.5 px-6 text-sm rounded-[18px] border-2 border-solid border-[#2D0399] text-[#2D0399] cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 hover:bg-[#2D0399] shadow-xl hover:text-white"
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+
+        <div className="w-[500px] h-[400px]  flex justify-end relative">
+          <div className="w-[400px] h-[400px] bg-[#1F3B68] rounded-2xl absolute bottom-0 right-9 z-20">
+            <div className="h-full mx-11 py-7 grid gap- grid-cols-1 content-between">
+              <div>
+                <p className="text-white text-3xl font-semibold">Lorem ipsum</p>
+                <div className="mt-4 flex items-center gap-2">
+                  <Image
+                    className=" rounded-full"
+                    src="/img/Ellipse12.png"
+                    width={22}
+                    height={22}
+                    alt="photo1"
+                  />
+                  <span className="text-white">Wade Warren</span>
+                </div>
+              </div>
+              <div className="text-white stroll p-2">
+                <h1 className="font-semibold">Lawrance Stroll</h1>
+                <p className="text-sm">Hegifueshho dhfsui foiehhsio</p>
+              </div>
+            </div>
+            {/* <div></div> */}
+          </div>
+          <div className="w-[350px] h-[350px] bg-[#980FA7] rounded-2xl absolute bottom-5 right-4 z-10"></div>
+          <div className="w-[300px] h-[300px] bg-[#31096A] rounded-2xl absolute bottom-10 z-0  "></div>
+        </div>
+      </div>
     </div>
   );
 };
