@@ -7,7 +7,23 @@
   clip-path: circle(165vh at 50% -100vh);
   height: 358px;
   width: 100%;
+}
 
+.photo1{
+  border-radius: 39px;
+  border: 7px solid #FFF;
+  background: linear-gradient(0deg, #00000033 0%, #00000033 100%), linear-gradient(239deg, #1300eed4 -13.97%, #1a0ea47d 105.9%);
+}
+
+.photo2{
+  border-radius: 39px;
+background: url('../../public/img/Rectangle15.png') 
+}
+
+.photo3{
+  border-radius: 39px;
+border: 1px solid #000;
+background: linear-gradient(151deg, #FA6F6F 8.2%, #A51D1D 67.67%); 
 }
 
 /* :root {
